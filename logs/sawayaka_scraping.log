@@ -32405,3 +32405,167 @@ STARTED	2023-11-14 13:05:01.931598
 INSERTED	2023-11-14 13:05:16.153080
 STARTED	2023-11-14 13:10:01.416335
 INSERTED	2023-11-14 13:10:14.473454
+STARTED	2023-11-14 13:15:01.725771
+INSERTED	2023-11-14 13:15:15.894143
+STARTED	2023-11-14 13:20:02.149537
+INSERTED	2023-11-14 13:20:16.269637
+STARTED	2023-11-14 13:25:01.516640
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 13:25:02.521039
+STARTED	2023-11-14 13:30:01.746853
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 13:30:02.751313
+STARTED	2023-11-14 13:35:01.692406
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 13:35:02.696682
+STARTED	2023-11-14 13:40:01.920763
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 13:40:02.925004
+STARTED	2023-11-14 13:45:02.143284
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 13:45:03.147726
+STARTED	2023-11-14 13:50:01.369522
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 13:50:02.373846
+STARTED	2023-11-14 13:55:01.595589
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 13:55:02.600058
+STARTED	2023-11-14 14:00:01.828502
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:00:02.832815
+STARTED	2023-11-14 14:05:01.187592
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:05:02.191941
+STARTED	2023-11-14 14:10:01.430582
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:10:02.435097
+STARTED	2023-11-14 14:15:01.655412
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:15:02.659734
+STARTED	2023-11-14 14:20:01.900121
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:20:02.904456
+STARTED	2023-11-14 14:25:02.124356
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:25:03.128644
+STARTED	2023-11-14 14:30:01.351185
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:30:02.355459
+STARTED	2023-11-14 14:35:01.585288
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:35:02.589529
+STARTED	2023-11-14 14:40:01.829125
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:40:02.833309
+STARTED	2023-11-14 14:45:02.062819
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:45:03.067115
+STARTED	2023-11-14 14:50:01.289638
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:50:02.293996
+STARTED	2023-11-14 14:55:02.099352
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 14:55:03.103824
+STARTED	2023-11-14 15:00:01.338880
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:00:02.343294
+STARTED	2023-11-14 15:05:01.563138
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:05:02.567586
+STARTED	2023-11-14 15:10:01.789804
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:10:02.794054
+STARTED	2023-11-14 15:15:02.014914
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:15:03.019394
+STARTED	2023-11-14 15:20:01.256955
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:20:02.261299
+STARTED	2023-11-14 15:25:01.485000
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:25:02.489326
+STARTED	2023-11-14 15:30:01.717734
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:30:02.722030
+STARTED	2023-11-14 15:35:02.018265
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:35:03.022635
+STARTED	2023-11-14 15:40:01.246759
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:40:02.251171
+STARTED	2023-11-14 15:45:01.496677
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:45:02.501131
+STARTED	2023-11-14 15:50:01.719703
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:50:02.723970
+STARTED	2023-11-14 15:55:01.972982
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 15:55:02.977357
+STARTED	2023-11-14 16:00:01.198898
+OCCURED	<class 'selenium.common.exceptions.WebDriverException'>
+BECAUSE	Message: Service /usr/bin/chromedriver unexpectedly exited. Status code was: 1
+
+ESCAPED	2023-11-14 16:00:02.203240
