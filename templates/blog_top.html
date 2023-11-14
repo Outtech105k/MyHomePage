@@ -1,0 +1,29 @@
+{% extends 'frame.html' %}
+
+{% block sp_css %}
+<link rel="stylesheet" href="/static/css/blog.css">
+{% endblock %}
+
+{% block main %}
+
+{% for i in articles %}
+<a href="https://techgate.mydns.jp/blogs/{{i['id']}}">
+	<article class="article">
+		<figure>
+			<img src="/static/images/{{i['thumbnail_path']}}">
+		</figure>
+		<div class="article-info">
+			<h4>{{i['title']}}</h4>
+			<!--<span class="article-category">アプリ</span>-->
+			<time class="article-date">{{i['timestamp']}}</time>
+			<p>{{i['head']}}</p>
+		</div>
+
+	</article>
+</a>
+{% endfor %}
+
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

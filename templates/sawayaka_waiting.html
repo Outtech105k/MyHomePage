@@ -1,0 +1,60 @@
+{% extends 'frame.html' %}
+
+{% block sp_css %}
+<link rel="stylesheet" href="/static/css/sawayaka.css">
+{% endblock %}
+
+{% block main %}
+<h3 class="warning">&lt;注意&gt;このツールはベータ版です!</h3>
+<p>
+	問題・バグが発生した場合は、管理者の X(twitter)
+	<a href="http://twitter.com/105techno" target="_blank">@105techno</a>
+	のDMでお知らせください
+</p>
+
+<hr>
+
+<!-- 店舗選択肢 -->
+<select id="showShopList">
+	<option hidden>表示する店舗を選択</option>
+	{% for i in shops %}
+	<option value={{i}}>{{i}}</option>
+	{% endfor %}
+</select>
+
+<div class="mode_settings">
+	<input type="radio" name="tab_name" id="dateSetting" checked>
+	<label class="tab_class" for="dateSetting">日付表示</label>
+	<div class="content_class">
+		<!-- 日付 -->
+		<input type="date" id="showDateValue">
+		<!-- グラフ更新ボタン -->
+		<button type="button" class="refreshChartButton defaultButton" onclick="checkDrawChart('day')">グラフを更新</button>
+	</div>
+
+	<input type="radio" name="tab_name" id="weekSetting">
+	<label class="tab_class" for="weekSetting">週表示</label>
+	<div class="content_class">
+		<h6>平均待ち時間を表しています。</h6>
+		<!-- 週 -->
+		<input type="week" id="showWeekValue" pattern="[0-9]{4}-[0-9]{2}">
+		<!-- グラフ更新ボタン -->
+		<button type="button" class="refreshChartButton defaultButton" onclick="checkDrawChart('week')">グラフを更新</button>
+	</div>
+
+</div>
+
+<!-- グラフ表示部 -->
+<div class="waitChart">
+	<canvas id="sawayakaWaitChart"></canvas>
+</div>
+
+<hr>
+
+<p>このツールのデータは、<a href="https://www.genkotsu-hb.com/shop/" target="_blank">さわやか公式ホームページの待ち時間情報</a>を利用しています。</p>
+{% endblock %}
+
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.js"></script>
+<script src="/static/js/sawayaka_waiting.js"></script>
+{% endblock %}

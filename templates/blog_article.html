@@ -1,0 +1,19 @@
+{% extends 'frame.html' %}
+
+{% block sp_css %}
+<link rel="stylesheet" href="/static/css/blog.css">
+{% endblock %}
+
+{% block main %}
+<div class="article_time_tags">
+	<p>{{article_data['timestamp']}}</p>
+</div>
+
+<div class="article_body">
+	{{article_data['body']|safe}}
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

@@ -1,0 +1,142 @@
+/*ブログ一覧用リンクボックス*/
+a:has(.article) {
+	display: block;
+	text-decoration: none;
+	color: inherit;
+	margin: 10px 50px;
+}
+
+a:has(.article):hover {
+	opacity: 0.6;
+}
+
+.article {
+	display: flex;
+	margin: auto;
+	height: auto;
+	width: 100%;
+	margin-top: 20px;
+	border-radius: 10px;
+	background-color: lightgray;
+}
+
+.article figure {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50vw;
+	max-width: 300px;
+	min-width: 200px;
+}
+
+.article figcaption {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.article figure img {
+	width: 90%;
+	height: 90%;
+	border-radius: 10px;
+	object-fit: cover;
+}
+
+
+.article-info {
+	flex: 1;
+	display: inline-block;
+	width: calc(100% - 50vw);
+	margin: 20px;
+}
+
+.article-info * {
+	overflow-wrap: break-word;
+	display: -webkit-box;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+}
+
+.article-info h4 {
+	font-size: 20px;
+	-webkit-line-clamp: 2;
+}
+
+.article-category {
+	background-color: #FFF687;
+	border-radius: 15px;
+	color: #000000;
+	padding: 5px 8px;
+}
+
+.article-info p {
+	color: #8B8B8B;
+	-webkit-line-clamp: 3;
+}
+
+.gmap {
+	height: 0;
+	z-index: -1;
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+.gmap iframe {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (max-width: 599px) {
+	a:has(.article) {
+		margin: 10px;
+	}
+
+	.article {
+		flex-flow: column;
+	}
+
+	.article figure {
+		width: 100%;
+		max-width: none;
+		margin-top: 10px;
+	}
+
+	.article-info {
+		width: 90%;
+	}
+
+	.article-info p {
+		display: none;
+	}
+}
+
+.article_time_tags {
+	margin: 20px auto;
+	display: flex;
+	max-width: 700px;
+	border-top: 3px solid #333;
+	border-bottom: 3px solid #333;
+	padding: 10px;
+	background: #f2f2f2;
+}
+
+/* メイン */
+.article_body {
+	display: flex;
+	flex-flow: column;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+.article_body img {
+	width: 90vw;
+	max-width: 100%;
+	max-height: 70vh;
+	margin: 10px;
+	object-fit: contain;
+}
