@@ -3,8 +3,6 @@ import json
 
 import common_functions as cf
 
-SAWAYAKA_DB_PATH='/home/outtech105/app/databases/sawayaka.db'
-
 app = Flask(__name__)
 
 # ここからログ記録用リダイレクト
