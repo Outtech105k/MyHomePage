@@ -3,3 +3,5 @@
 /static/images/*
 /__pycache__/*
 /.vscode/*
+/venv/*
+/flask_debug.py
