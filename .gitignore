@@ -4,5 +4,5 @@
 /__pycache__/*
 /.vscode/*
 /venv/*
-/flask_debug.py
+/debug.py
 /settings.py
