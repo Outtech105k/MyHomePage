@@ -3,10 +3,6 @@
 /static/images/*
 /__pycache__/*
 /.vscode/*
-<<<<<<< HEAD
 /venv/*
 /flask_debug.py
 /settings.py
-=======
-/venv/*
->>>>>>> dfe4b67 (コンフィグファイルの内容設定・参照URLの書き換え)
