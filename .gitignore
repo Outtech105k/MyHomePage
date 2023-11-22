@@ -1,6 +1,5 @@
 /databases/*
 /logs/*
-/static/images/*
 /__pycache__/*
 /.vscode/*
 /venv/*
