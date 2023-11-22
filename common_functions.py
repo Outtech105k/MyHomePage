@@ -4,9 +4,7 @@ from pprint import pprint,pformat
 import re
 import datetime
 import send_mail
-
-SAWAYAKA_DB_PATH='/home/outtech105/app/databases/sawayaka.db'
-BLOG_DB_PATH='/home/outtech105/app/databases/blog.db'
+from settings import *
 
 # dict_factoryの定義 sqlite3の返すテーブル情報の辞書型モデルを定義する
 def dict_factory(cursor, row):
