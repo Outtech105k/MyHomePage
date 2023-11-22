@@ -1,7 +1,7 @@
 # このプログラムは実用しない
 
 # seleniumの問題は、以下を確認
-# https://onl.sc/uT1Eymf
+# https://self-development.info/ubuntuでseleniumを動かしてスクレイピングを行う【python】/
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
  
