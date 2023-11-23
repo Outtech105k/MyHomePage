@@ -4,3 +4,5 @@
 /venv/*
 /debug.py
 /settings.py
+/logs/*
+```
