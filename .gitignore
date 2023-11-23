@@ -1,5 +1,4 @@
 /databases/*
-/logs/*
 /__pycache__/*
 /.vscode/*
 /venv/*
