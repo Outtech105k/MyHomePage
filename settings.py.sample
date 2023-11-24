@@ -1,2 +1,7 @@
-SAWAYAKA_DB_PATH='/databases/sawayaka.db'
-BLOG_DB_PATH='/databases/blog.db'
+"""コンフィグファイル"""
+ROOT_PATH = '/'
+
+LOG_FILE_DIRECTORY_PATH = './logs/'
+
+SAWAYAKA_DB_PATH = './databases/sawayaka.db'
+BLOG_DB_PATH = './databases/blog.db'
