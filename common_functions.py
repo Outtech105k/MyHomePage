@@ -1,8 +1,8 @@
 """ app.py から呼び出される、共通関数を定義する """
 import datetime as dt
 import sqlite3
-import re
 import os
+from bs4 import BeautifulSoup
 
 from settings import (
     ROOT_PATH,
@@ -63,8 +63,8 @@ def get_articles(article_id=None):
 
     # 記事カードにおける冒頭本文のため、HTMLタグを除いて文字数カットしたダイジェスト文を生成
     for article in articles_list:
-        article['head'] = re.sub(re.compile('<.*?>'), '', article['body'])
-        # TODO: 後々 &エスケープなどを発見した場合、順次手直しを行う
+        soup = BeautifulSoup(article['body'], 'html.parser')
+        article['head'] = soup.get_text()[0:300]
 
     return articles_list
 
