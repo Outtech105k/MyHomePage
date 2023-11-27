@@ -4,11 +4,12 @@ import json
 from flask import Flask, render_template, request, redirect, url_for, Response
 
 import common_functions as cf
+from settings import WEB_TOP_URL
 
 app = Flask(__name__)
 
 
-@app.route('/home')
+@app.route('/home/')
 def tp_home():
     '''時刻・IPログ記録の後、トップページにリダイレクト'''
     cf.log(
@@ -27,18 +28,19 @@ def render_home():
     return redirect(url_for('render_blogs_list'))
 
 
-@app.route('/blogs')
+@app.route('/blogs/')
 def render_blogs_list():
     '''ブログ一覧を表示する'''
     article_list = cf.get_articles()
     return render_template(
         'blog_top.html',
         title='ブログ一覧',
-        articles=article_list
+        articles=article_list,
+        web_top_url=WEB_TOP_URL
     )
 
 
-@app.route('/blogs/<article_id>')
+@app.route('/blogs/<article_id>/')
 def article_render(article_id):
     """ブログ記事を表示する"""
     article_data = cf.get_articles(article_id)
@@ -51,14 +53,14 @@ def article_render(article_id):
     )
 
 
-@app.route('/tools')
+@app.route('/tools/')
 def render_tools_list():
     """ツール一覧を表示する"""
     return Response(
         response=(
             '<script>'
             'alert("申し訳ありません。アクセスしたページは未完成です。");'
-            'window.location.href="https://techgate.mydns.jp/";'
+            f'window.location.href="{WEB_TOP_URL}";'
             '</script>'
         ),
         status=404
@@ -66,7 +68,7 @@ def render_tools_list():
 
 
 # さわやかに関するもの
-@app.route('/tools/sawayaka_waiting')
+@app.route('/tools/sawayaka_waiting/')
 def render_sawayaka_waiting():
     '''待ち時間をグラフ表示ページ描画'''
     shops_table = cf.get_sawayaka_shops_table()
@@ -78,7 +80,7 @@ def render_sawayaka_waiting():
     )
 
 
-@app.route('/apis/sawayaka_waiting')
+@app.route('/apis/sawayaka_waiting/')
 def json_sawayaka_wainting():
     '''さわやかの待ち時間をChart.js対応jsonで返すツール'''
     shop_name = request.args.get('shop_name')

@@ -5,3 +5,5 @@ LOG_FILE_DIRECTORY_PATH = './logs/'
 
 SAWAYAKA_DB_PATH = './databases/sawayaka.db'
 BLOG_DB_PATH = './databases/blog.db'
+
+WEB_TOP_URL = 'https://example.com/'

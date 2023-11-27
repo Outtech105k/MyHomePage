@@ -7,7 +7,7 @@
 {% block main %}
 
 {% for i in articles %}
-<a href="https://techgate.mydns.jp/blogs/{{i['id']}}">
+<a href="{{web_top_url}}blogs/{{i['id']}}">
 	<article class="article">
 		<figure>
 			<img src="/static/images/{{i['thumbnail_path']}}">
