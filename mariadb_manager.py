@@ -19,7 +19,9 @@ class MariaDBManager:
 
         self.connection = mysql.connector.connect(
             host=self.db_config["host"],
-            port=self.server.local_bind_port,
+            port=(
+                self.server.local_bind_port if ssh_config is not None else 3306
+            ),
             user=self.db_config["user"],
             password=base64.b64decode(
                 self.db_config["password_base64"]).decode("utf-8"),
