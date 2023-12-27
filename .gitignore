@@ -5,4 +5,4 @@
 /debug.py
 /settings.py
 /logs/*
-```
+/mariadb_test.py

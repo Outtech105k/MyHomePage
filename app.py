@@ -71,6 +71,7 @@ def render_tools_list():
 @app.route('/tools/sawayaka_waiting/')
 def render_sawayaka_waiting():
     '''待ち時間をグラフ表示ページ描画'''
+    return Response(status=400)
     shops_table = cf.get_sawayaka_shops_table()
     return render_template(
         'sawayaka_waiting.html',

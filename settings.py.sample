@@ -1,4 +1,4 @@
-"""コンフィグファイル"""
+"""コンフィグファイルのサンプルデータ"""
 ROOT_PATH = '/'
 
 LOG_FILE_DIRECTORY_PATH = './logs/'
@@ -7,3 +7,21 @@ SAWAYAKA_DB_PATH = './databases/sawayaka.db'
 BLOG_DB_PATH = './databases/blog.db'
 
 WEB_TOP_URL = 'https://example.com/'
+
+PRIKEY_PATH = '/home/exampleUser/.ssh/id_rsa'
+
+# 本番環境ではNoneを設定
+SERVER_SSH_CONNECTION_CONFIG = {
+    "ssh_host": ("example.com", 22),
+    "ssh_username": "user",
+    "ssh_pkey": PRIKEY_PATH,
+    "remote_bind_address": ("localhost", 3306)
+}
+
+MYSQL_CONNECTION_CONFIG = {
+    "host": "localhost",
+    "user": "user",
+    "password_base64": b'UEFTU1dPUkQ=',
+    "database": "server_db",
+    "charset": "utf8"
+}
