@@ -1,5 +1,4 @@
 """MariaDB 操作用Class"""
-import sshtunnel
 import mysql.connector
 import base64
 
@@ -9,6 +8,7 @@ class MariaDBManager:
         self.ssh_config = ssh_config
         self.db_config = db_config
         if ssh_config is not None:
+            import sshtunnel
             self.server = sshtunnel.SSHTunnelForwarder(
                 ssh_address_or_host=self.ssh_config["ssh_host"],
                 ssh_username=self.ssh_config["ssh_username"],
