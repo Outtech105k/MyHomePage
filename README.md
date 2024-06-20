@@ -16,3 +16,7 @@
 Outtech105
 
 [X](https://x.com/105techno)
+
+## License
+
+MIT license
